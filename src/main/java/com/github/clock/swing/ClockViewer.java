@@ -18,7 +18,7 @@ import java.awt.image.BufferedImage;
 import javax.swing.JComponent;
 import javax.swing.JFrame;
 
-import com.github.clocl.Argas;
+import com.github.clocl.Args;
 import com.github.clock.Clock;
 import com.github.clock.UpdateObserver;
 
