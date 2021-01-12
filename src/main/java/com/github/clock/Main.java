@@ -11,7 +11,7 @@ public class Main{
 
         if(args.isRunningMode()){
             Clock clock = new Clock(args.getTimeZone());
-            ClockViewerビューア= new ClockViewer（clock,args）;
+            Clock Viewer= new ClockViewer(clock,args);
             viewer.setDebugMode(args.isDebugMode());
             viewer.showClock();
         }
