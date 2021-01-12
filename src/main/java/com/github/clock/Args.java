@@ -23,8 +23,8 @@ public class Args {
     @Option(name="-d", aliases="--debug", usage="debug mode.")
     private boolean debugMode = false;
 
-     @Option（name = " -lc "、aliases = " --long-hand-color "、usage = "長針の色を指定する。"）
-    プライベート 文字列longHandColor =  "＃ff0000 " ;
+    @Option(name="-lc", aliases="--long-hand-color", usage="長針の色を指定する。"）
+    privete String longHandColor = "＃ff0000 ";
 
     public  String  getLongHandColor（）{
         return longHandColor;
